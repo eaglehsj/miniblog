@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.blog.miniblog.repository.BlogCommentMapper">
+  <resultMap id="BaseResultMap" type="com.blog.miniblog.entity.BlogComment">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <id column="blog_id" jdbcType="INTEGER" property="blogId" />
+    <id column="child_id" jdbcType="INTEGER" property="childId" />
+    <id column="parent_id" jdbcType="INTEGER" property="parentId" />
+    <result column="commenter_email" jdbcType="VARCHAR" property="commenterEmail" />
+    <result column="datetime" jdbcType="TIMESTAMP" property="datetime" />
+    <result column="content" jdbcType="LONGVARCHAR" property="content" />
+  </resultMap>
+</mapper>

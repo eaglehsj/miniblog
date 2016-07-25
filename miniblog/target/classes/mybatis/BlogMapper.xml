@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.blog.miniblog.repository.BlogMapper">
+  <resultMap id="BaseResultMap" type="com.blog.miniblog.entity.Blog">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="datetime" jdbcType="TIMESTAMP" property="datetime" />
+    <result column="phone" jdbcType="VARCHAR" property="phone" />
+    <result column="source" jdbcType="INTEGER" property="source" />
+    <result column="type" jdbcType="INTEGER" property="type" />
+    <result column="title" jdbcType="VARCHAR" property="title" />
+    <result column="commenter_number" jdbcType="INTEGER" property="commenterNumber" />
+    <result column="youke_number" jdbcType="INTEGER" property="youkeNumber" />
+    <result column="content" jdbcType="LONGVARCHAR" property="content" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.blog.miniblog.repository.UserAccountMapper" >
+  <resultMap id="BaseResultMap" type="com.blog.miniblog.entity.UserAccount" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="phone" property="phone" jdbcType="VARCHAR" />
+    <result column="account_icon" property="accountIcon" jdbcType="VARCHAR" />
+    <result column="account_desc" property="accountDesc" jdbcType="VARCHAR" />
+    <result column="account_number" property="accountNumber" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>

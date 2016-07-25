@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.blog.miniblog.repository.BlogTypeMapper">
+  <resultMap id="BaseResultMap" type="com.blog.miniblog.entity.BlogType">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="blog_type" jdbcType="VARCHAR" property="blogType" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="miniblog"
+  id="myeclipse.1469168265663"
+  context-root="/miniblog"
+  j2ee-spec="1.7"
+  archive="miniblog.war">
+  <attributes>
+    <attribute name="webrootdir" value="src/main/webapp" />
+  </attributes>
+</project-module>
+
